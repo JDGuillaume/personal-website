@@ -1,27 +1,21 @@
-// This is for convenience as you start out with this template.
-// If you'd rather hardcode these values into your pages,
-// feel free to remove this file.
+import avatarUrl from '/src/static/avatar.png';
 
-// URL of your website
-export const website = 'https://sveltekit-blog-template.vercel.app'
+export const website = 'https://jguillau.me';
 
-export const firstName = 'Jordan'
-export const lastName = 'Doe'
-export const name = `${firstName} ${lastName}`
+export const firstName = 'Joey';
+export const lastName = 'Guillaume';
+export const name = `${firstName} ${lastName}`;
 
 // Used for the landing page & footer of posts
-export const avatar = 'https://api.lorem.space/image/face?w=250&h=250'
+export const avatar = avatarUrl;
 export const bio = `\
-I’m ${firstName}, a software engineer based in Canada. Lorem ipsum dolor sit amet, consectetur
+I’m ${firstName}, a software engineer based in Lakewood, Ohio. Lorem ipsum dolor sit amet, consectetur
 adipiscing elit. Phasellus accumsan quam at eros malesuada, id luctus lectus efficitur. Nulla
 sit amet arcu mi. Duis quis mauris malesuada, posuere orci et, pulvinar nisl. Nam malesuada
 vehicula sapien vitae sagittis.
-`
+`;
 
-// Your social usernames, empty strings won't be used.
-// For sake of the live demo, I'm using `username/repo` for github,
-// but you can replace with just your username.
-export const github = 'mattjennings/sveltekit-blog-template'
-export const twitter = ''
-export const linkedin = ''
-export const instagram = ''
+export const github = 'jdguillaume';
+export const twitter = 'joey_guillaume';
+export const linkedin = '/in/jdguillaume';
+export const instagram = 'joey.guillaume';
