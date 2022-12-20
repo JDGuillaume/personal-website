@@ -32,7 +32,7 @@
         I recently co-created
         <a
           class="font-medium text-teal-500"
-          href="https://github.com/team-armada">Armada</a
+          href="https://team-armada.github.io/index.html">Armada</a
         >, an open-source container orchestration tool that allows
         administrators to automate the configuration and deployment of
         development environments in the cloud.
