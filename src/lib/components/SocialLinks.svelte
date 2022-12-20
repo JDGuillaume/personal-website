@@ -99,7 +99,7 @@
 </a>
 
 <a
-  href={'/src/static/resume.pdf'}
+  href={'/resume.pdf'}
   class="group"
   aria-label="View Resume"
   target="_blank"
