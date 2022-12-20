@@ -1,9 +1,13 @@
 <script>
-  import { linkedin, instagram, twitter, github } from '$lib/info'
+  import { linkedin, instagram, twitter, github } from '$lib/info';
 </script>
 
 {#if twitter}
-  <a href={`https://twitter.com/${twitter}`} class="group" aria-label="Follow on Twitter">
+  <a
+    href={`https://twitter.com/${twitter}`}
+    class="group"
+    aria-label="Follow on Twitter"
+  >
     <svg
       viewBox="0 0 24 24"
       aria-hidden="true"
@@ -17,7 +21,11 @@
 {/if}
 
 {#if instagram}
-  <a href={`https://instagram.com/${instagram}`} class="group" aria-label="Follow on Instagram">
+  <a
+    href={`https://instagram.com/${instagram}`}
+    class="group"
+    aria-label="Follow on Instagram"
+  >
     <svg
       viewBox="0 0 24 24"
       aria-hidden="true"
@@ -34,7 +42,11 @@
 {/if}
 
 {#if github}
-  <a href={`https://github.com/${github}`} class="group" aria-label="Follow on GitHub">
+  <a
+    href={`https://github.com/${github}`}
+    class="group"
+    aria-label="Follow on GitHub"
+  >
     <svg
       viewBox="0 0 24 24"
       aria-hidden="true"
@@ -50,7 +62,11 @@
 {/if}
 
 {#if linkedin}
-  <a href={`https://linkedin.com/${linkedin}`} class="group" aria-label="Follow on LinkedIn">
+  <a
+    href={`https://linkedin.com/${linkedin}`}
+    class="group"
+    aria-label="Follow on LinkedIn"
+  >
     <svg
       viewBox="0 0 24 24"
       class="w-6 h-6 transition fill-zinc-500 group-hover:fill-zinc-600 dark:fill-zinc-400 dark:group-hover:fill-zinc-300"
@@ -61,3 +77,45 @@
     </svg>
   </a>
 {/if}
+
+<a
+  href={`mailto:josephdguillaume@gmail.com`}
+  class="group"
+  aria-label="Send Email"
+>
+  <svg
+    xmlns="http://www.w3.org/2000/svg"
+    x="0px"
+    y="0px"
+    width="24"
+    height="24"
+    viewBox="0 0 64 64"
+    class="w-6 h-6 transition fill-zinc-500 group-hover:fill-zinc-600 dark:fill-zinc-400 dark:group-hover:fill-zinc-300"
+  >
+    <path
+      d="M 15 14 C 11.691 14 9 16.691 9 20 L 9 44 C 9 47.309 11.691 50 15 50 L 49 50 C 52.309 50 55 47.309 55 44 L 55 20 C 55 16.691 52.309 14 49 14 L 15 14 z M 16.349609 18 L 47.652344 18 L 35.443359 29.597656 C 33.513359 31.432656 30.486641 31.432656 28.556641 29.597656 L 16.349609 18 z M 13 20.337891 L 25.800781 32.498047 C 27.538781 34.149047 29.77 34.974609 32 34.974609 C 34.23 34.974609 36.460219 34.148047 38.199219 32.498047 L 51 20.337891 L 51 44 C 51 45.103 50.103 46 49 46 L 15 46 C 13.897 46 13 45.103 13 44 L 13 20.337891 z"
+    />
+  </svg>
+</a>
+
+<a
+  href={'/src/static/resume.pdf'}
+  class="group"
+  aria-label="View Resume"
+  target="_blank"
+  rel="noreferrer"
+>
+  <svg
+    xmlns="http://www.w3.org/2000/svg"
+    x="0px"
+    y="0px"
+    width="24"
+    height="24"
+    viewBox="0 0 64 64"
+    class="w-6 h-6 transition fill-zinc-500 group-hover:fill-zinc-600 dark:fill-zinc-400 dark:group-hover:fill-zinc-300"
+  >
+    <path
+      d="M 20 10 C 16.686 10 14 12.686 14 16 L 14 48 C 14 51.314 16.686 54 20 54 L 44 54 C 47.314 54 50 51.314 50 48 L 50 28.65625 C 50 27.06425 49.367188 25.539062 48.242188 24.414062 L 35.585938 11.757812 C 34.459938 10.632812 32.93475 10 31.34375 10 L 20 10 z M 20 14 L 30 14 L 30 24 C 30 27.314 32.686 30 36 30 L 46 30 L 46 48 C 46 49.105 45.105 50 44 50 L 20 50 C 18.895 50 18 49.105 18 48 L 18 16 C 18 14.895 18.895 14 20 14 z M 34 15.828125 L 44.171875 26 L 36 26 C 34.895 26 34 25.105 34 24 L 34 15.828125 z M 24 34 C 22.896 34 22 34.895 22 36 C 22 37.105 22.896 38 24 38 L 40 38 C 41.104 38 42 37.105 42 36 C 42 34.895 41.104 34 40 34 L 24 34 z M 24 42 C 22.896 42 22 42.895 22 44 C 22 45.105 22.896 46 24 46 L 40 46 C 41.104 46 42 45.105 42 44 C 42 42.895 41.104 42 40 42 L 24 42 z"
+    />
+  </svg></a
+>

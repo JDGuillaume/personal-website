@@ -8,11 +8,8 @@ export const name = `${firstName} ${lastName}`;
 
 // Used for the landing page & footer of posts
 export const avatar = avatarUrl;
-export const bio = `\
-I’m ${firstName}, a software engineer based in Lakewood, Ohio. Lorem ipsum dolor sit amet, consectetur
-adipiscing elit. Phasellus accumsan quam at eros malesuada, id luctus lectus efficitur. Nulla
-sit amet arcu mi. Duis quis mauris malesuada, posuere orci et, pulvinar nisl. Nam malesuada
-vehicula sapien vitae sagittis.
+export const bio = `
+I’m ${firstName}, a Software Engineer based in Cleveland, Ohio. My focus is on writing clean, maintainable code that is efficient, reliable, and easy to understand. I'm always up for new challenges and tackling interesting problems.
 `;
 
 export const github = 'jdguillaume';
