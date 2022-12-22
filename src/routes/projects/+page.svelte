@@ -14,8 +14,16 @@
     web="https://team-armada.github.io/index.html"
     github="https://github.com/team-armada/"
   >
-    Armada is an open-source container orchestration tool that allows
-    administrators to automate the configuration and deployment of development
-    environments in the cloud.
+    <p>
+      Armada is an open-source container orchestration tool that allows
+      administrators to automate the configuration and deployment of development
+      environments in the cloud.
+    </p>
+
+    <br />
+
+    <p class="text-justify">
+      Built with TypeScript, Node, AWS, Docker, React, and SQL.
+    </p>
   </Project>
 </div>
