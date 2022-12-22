@@ -44,7 +44,7 @@
         <br />
 
         Check out some of my latest
-        <a class="font-medium text-teal-500" href="/projects">projects</a> and see
+        <a class="font-medium text-teal-500" href="/projects ">projects</a> and see
         how I've brought my ideas to life.
       </p>
     </div>
@@ -65,3 +65,9 @@
     <PostsList posts={data.posts} />
   </section>
 </div>
+
+<style>
+  a {
+    text-decoration: underline;
+  }
+</style>
