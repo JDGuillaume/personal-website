@@ -1,6 +1,6 @@
 <script>
   import Project from '$lib/components/Project.svelte';
-  import armadaUrl from './armada.svg';
+  import armadaUrl from './armada.png';
 </script>
 
 <svelte:head>
