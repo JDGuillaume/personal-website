@@ -25,10 +25,13 @@
       <div class="flex gap-6">
         <SocialLinks />
       </div>
-      <p class="text-base text-zinc-600 dark:text-zinc-400">
+      <p class="text-base text-zinc-600 dark:text-zinc-400 text-justify">
         {bio}
-        <br />
-        <br />
+      </p>
+      <p
+        class="text-base text-zinc-600 dark:text-zinc-400"
+        style="text-align: justify;"
+      >
         I recently co-created
         <a
           class="font-medium text-teal-500"
@@ -36,6 +39,13 @@
         >, an open-source container orchestration tool that allows
         administrators to automate the configuration and deployment of
         development environments in the cloud.
+
+        <br />
+        <br />
+
+        Check out some of my latest
+        <a class="font-medium text-teal-500" href="/projects">projects</a> and see
+        how I've brought my ideas to life.
       </p>
     </div>
   </section>
