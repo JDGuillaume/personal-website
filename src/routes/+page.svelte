@@ -1,8 +1,10 @@
 <script>
   import ArrowRightIcon from '$lib/components/ArrowRightIcon.svelte';
-  import PostsList from '$lib/components/PostsList.svelte';
+  import Project from '$lib/components/Project.svelte';
+  // import PostsList from '$lib/components/PostsList.svelte';
   import SocialLinks from '$lib/components/SocialLinks.svelte';
   import { avatar, bio, name } from '$lib/info.js';
+  import armadaUrl from './projects/armada.png';
 
   /** @type {import('./$types').PageData} */
   export let data;
@@ -54,15 +56,33 @@
       <h2
         class="text-sm font-medium sm:text-base text-zinc-500 dark:text-zinc-400"
       >
-        Recently Published
+        Project Spotlight
       </h2>
       <a
-        href="/posts"
+        href="/projects"
         class="flex items-center gap-1 text-sm font-medium text-teal-500"
-        >View All <ArrowRightIcon class="w-4 h-4" /></a
+        >View All Projects<ArrowRightIcon class="w-4 h-4" /></a
       >
     </div>
-    <PostsList posts={data.posts} />
+    <!-- Armada -->
+    <Project
+      title="Armada"
+      img={armadaUrl}
+      web="https://team-armada.github.io/index.html"
+      github="https://github.com/team-armada/"
+    >
+      <p class="text-justify">
+        Armada is an open-source container orchestration tool that allows
+        administrators to automate the configuration and deployment of
+        development environments in the cloud.
+      </p>
+
+      <br />
+
+      <p class="text-justify">
+        Built with AWS, Docker, React, TypeScript, Express, and PostgreSQL.
+      </p>
+    </Project>
   </section>
 </div>
 

@@ -1,4 +1,5 @@
 <script>
+  import { fade } from 'svelte/transition';
   export let title;
   export let img = undefined;
   export let web = undefined;
@@ -18,6 +19,7 @@
 
 <div
   class="flex flex-col md:flex-row items-start space-x-0 md:space-x-8 pb-8 border-b border-slate-300 dark:border-slate-700"
+  transition:fade
 >
   <div class="mt-10 mb-10 md:order-1 !mx-auto w-auto md:md-0 md:w-1/3">
     {#if img}

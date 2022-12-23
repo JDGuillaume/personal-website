@@ -4,7 +4,6 @@
   import wreckbinUrl from './wreckbin.png';
   import shoppingCartUrl from './shoppingCart.png';
   import airlinesUrl from './airlines.png';
-  import contactsUrl from './contacts.png';
 </script>
 
 <svelte:head>
@@ -33,11 +32,7 @@
   </Project>
 
   <!-- WreckBin -->
-  <Project
-    title="WreckBin"
-    img={wreckbinUrl}
-    github="https://github.com/Del-on-git/WreckBin"
-  >
+  <Project title="WreckBin" img={wreckbinUrl}>
     <p class="text-justify">
       Wreckbin enables you to view and analyze the output of your webhooks by
       exposing an API endpoint that will record all relevant data.
@@ -51,11 +46,7 @@
   </Project>
 
   <!-- Shopping Cart -->
-  <Project
-    title="Shopping Cart"
-    img={shoppingCartUrl}
-    github="https://github.com/JDGuillaume/react-shopping-cart"
-  >
+  <Project title="Shopping Cart" img={shoppingCartUrl}>
     <p class="text-justify">
       A small e-commerce shopping-cart application created in order to practice
       working with React and Docker.
@@ -67,11 +58,7 @@
   </Project>
 
   <!-- Airlines-->
-  <Project
-    title="Airlines"
-    img={airlinesUrl}
-    github="https://github.com/JDGuillaume/launch-school-airlines"
-  >
+  <Project title="Airlines" img={airlinesUrl}>
     <p class="text-justify">
       A React application that displays and filters airline routes with
       pagination.
@@ -80,24 +67,5 @@
     <br />
 
     <p class="text-justify">Built with React & JavaScript.</p>
-  </Project>
-
-  <!-- Contact Manager -->
-  <Project
-    title="Contacts Manager"
-    img={contactsUrl}
-    github="https://github.com/JDGuillaume/launch-school-javascript-239-contact-manager-app"
-  >
-    <p class="text-justify">
-      A contact management application that allows users to tag, filter, and
-      search their contacts, complete with all CRUD operations.
-    </p>
-
-    <br />
-
-    <p class="text-justify">
-      Built with JavaScript, Handlebars, and Bootstrap using
-      Model-View-Controller (MVC) architecture.
-    </p>
   </Project>
 </div>
