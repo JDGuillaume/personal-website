@@ -21,3 +21,12 @@
     @apply border-zinc-100 dark:border-zinc-700/25;
   }
 }
+
+.tippy-box[data-theme~='teal'] {
+  background-color: #14b8a6;
+  color: white;
+  padding: 6px;
+  border-radius: 10%;
+  font-weight: 500;
+  font-style: bold;
+}

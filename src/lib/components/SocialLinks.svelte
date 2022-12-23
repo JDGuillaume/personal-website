@@ -1,5 +1,52 @@
 <script>
+  import tippy from 'tippy.js';
+  import { onMount } from 'svelte';
   import { linkedin, instagram, twitter, github } from '$lib/info';
+
+  onMount(async () => {
+    tippy('#twitter', {
+      content: 'Twitter',
+      placement: 'bottom',
+      theme: 'teal',
+      delay: [500, 200],
+      arrow: true,
+    });
+
+    tippy('#instagram', {
+      content: 'Instagram',
+      placement: 'bottom',
+      theme: 'teal',
+      delay: [500, 200],
+    });
+
+    tippy('#github', {
+      content: 'GitHub',
+      placement: 'bottom',
+      theme: 'teal',
+      delay: [500, 200],
+    });
+
+    tippy('#linkedin', {
+      content: 'LinkedIn',
+      placement: 'bottom',
+      theme: 'teal',
+      delay: [500, 200],
+    });
+
+    tippy('#email', {
+      content: 'Email',
+      placement: 'bottom',
+      theme: 'teal',
+      delay: [500, 200],
+    });
+
+    tippy('#resume', {
+      content: 'Resume',
+      placement: 'bottom',
+      theme: 'teal',
+      delay: [500, 200],
+    });
+  });
 </script>
 
 {#if twitter}
@@ -9,6 +56,7 @@
     aria-label="Follow on Twitter"
   >
     <svg
+      id="twitter"
       viewBox="0 0 24 24"
       aria-hidden="true"
       class="w-6 h-6 transition fill-zinc-500 group-hover:fill-zinc-600 dark:fill-zinc-400 dark:group-hover:fill-zinc-300"
@@ -27,6 +75,7 @@
     aria-label="Follow on Instagram"
   >
     <svg
+      id="instagram"
       viewBox="0 0 24 24"
       aria-hidden="true"
       class="w-6 h-6 transition fill-zinc-500 group-hover:fill-zinc-600 dark:fill-zinc-400 dark:group-hover:fill-zinc-300"
@@ -48,6 +97,7 @@
     aria-label="Follow on GitHub"
   >
     <svg
+      id="github"
       viewBox="0 0 24 24"
       aria-hidden="true"
       class="w-6 h-6 transition fill-zinc-500 group-hover:fill-zinc-600 dark:fill-zinc-400 dark:group-hover:fill-zinc-300"
@@ -63,6 +113,7 @@
 
 {#if linkedin}
   <a
+    id="linkedin"
     href={`https://linkedin.com/${linkedin}`}
     class="group"
     aria-label="Follow on LinkedIn"
@@ -84,6 +135,7 @@
   aria-label="Send Email"
 >
   <svg
+    id="email"
     xmlns="http://www.w3.org/2000/svg"
     x="0px"
     y="0px"
@@ -106,6 +158,7 @@
   rel="noreferrer"
 >
   <svg
+    id="resume"
     xmlns="http://www.w3.org/2000/svg"
     x="0px"
     y="0px"
