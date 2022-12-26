@@ -18,7 +18,7 @@
       window.addEventListener('storage', updateModeWithoutTransitions);
 
       function updateMode() {
-        let isSystemDarkMode = darkModeMediaQuery.matches;
+        let isSystemDarkMode = true;
         let isDarkMode =
           window.localStorage.isDarkMode === 'true' ||
           (!('isDarkMode' in window.localStorage) && isSystemDarkMode);
