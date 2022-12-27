@@ -34,7 +34,7 @@
   <!-- WreckBin -->
   <Project title="WreckBin" img={wreckbinUrl}>
     <p class="text-justify">
-      Wreckbin enables you to view and analyze the output of your webhooks by
+      WreckBin enables you to view and analyze the output of your webhooks by
       exposing an API endpoint that will record all relevant data.
     </p>
 
