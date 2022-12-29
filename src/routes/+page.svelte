@@ -27,6 +27,15 @@
       <div class="flex gap-6">
         <SocialLinks />
       </div>
+      <div>
+        <a href={'/resume.pdf'} target="_blank" rel="noreferrer"
+          ><button
+            class="bg-teal-500 hover:bg-teal-700 text-white font-bold py-2 px-4 rounded "
+          >
+            View Resume
+          </button>
+        </a>
+      </div>
       <p class="text-base text-zinc-600 dark:text-zinc-400 text-justify">
         {bio}
       </p>
