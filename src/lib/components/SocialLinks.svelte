@@ -32,6 +32,8 @@
     href={`https://github.com/${github}`}
     class="group"
     aria-label="Follow on GitHub"
+    target="_blank"
+    rel="noreferrer"
   >
     <svg
       id="github"
@@ -52,6 +54,8 @@
   <a
     id="linkedin"
     href={`https://linkedin.com/${linkedin}`}
+    target="_blank"
+    rel="noreferrer"
     class="group"
     aria-label="Follow on LinkedIn"
   >
