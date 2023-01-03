@@ -40,6 +40,8 @@
           href={link.url}
           class="inline-flex items-center tracking-wide font-medium text-teal-500"
           style="text-decoration: underline;"
+          target="_blank"
+          rel="noreferrer"
         >
           {link.label}
         </a>
