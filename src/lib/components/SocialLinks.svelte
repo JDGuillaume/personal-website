@@ -53,7 +53,7 @@
 {#if linkedin}
   <a
     id="linkedin"
-    href={`https://linkedin.com/${linkedin}`}
+    href={`https://linkedin.com${linkedin}`}
     target="_blank"
     rel="noreferrer"
     class="group"

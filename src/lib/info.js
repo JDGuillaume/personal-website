@@ -14,5 +14,5 @@ I’m ${firstName}, a Software Engineer based in Cleveland, Ohio. My focus is on
 
 export const github = 'jdguillaume';
 export const twitter = 'joey_guillaume';
-export const linkedin = 'in/jdguillaume';
+export const linkedin = '/in/jdguillaume';
 export const instagram = 'joey.guillaume';
